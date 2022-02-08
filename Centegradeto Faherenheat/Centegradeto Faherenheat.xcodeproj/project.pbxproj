@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774E45FC27B310340019559F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E45FB27B310340019559F /* AppDelegate.swift */; };
+		774E45FE27B310340019559F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E45FD27B310340019559F /* SceneDelegate.swift */; };
+		774E460027B310340019559F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E45FF27B310340019559F /* ViewController.swift */; };
+		774E460327B310340019559F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774E460127B310340019559F /* Main.storyboard */; };
+		774E460527B310360019559F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774E460427B310360019559F /* Assets.xcassets */; };
+		774E460827B310360019559F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774E460627B310360019559F /* LaunchScreen.storyboard */; };
+		774E461327B310360019559F /* Centegradeto_FaherenheatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E461227B310360019559F /* Centegradeto_FaherenheatTests.swift */; };
+		774E461D27B310360019559F /* Centegradeto_FaherenheatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E461C27B310360019559F /* Centegradeto_FaherenheatUITests.swift */; };
+		774E461F27B310360019559F /* Centegradeto_FaherenheatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E461E27B310360019559F /* Centegradeto_FaherenheatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		774E460F27B310360019559F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774E45F027B310340019559F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774E45F727B310340019559F;
+			remoteInfo = "Centegradeto Faherenheat";
+		};
+		774E461927B310360019559F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774E45F027B310340019559F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774E45F727B310340019559F;
+			remoteInfo = "Centegradeto Faherenheat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		774E45F827B310340019559F /* Centegradeto Faherenheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Centegradeto Faherenheat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774E45FB27B310340019559F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		774E45FD27B310340019559F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		774E45FF27B310340019559F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		774E460227B310340019559F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		774E460427B310360019559F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		774E460727B310360019559F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		774E460927B310360019559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774E460E27B310360019559F /* Centegradeto FaherenheatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Centegradeto FaherenheatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774E461227B310360019559F /* Centegradeto_FaherenheatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centegradeto_FaherenheatTests.swift; sourceTree = "<group>"; };
+		774E461827B310360019559F /* Centegradeto FaherenheatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Centegradeto FaherenheatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774E461C27B310360019559F /* Centegradeto_FaherenheatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centegradeto_FaherenheatUITests.swift; sourceTree = "<group>"; };
+		774E461E27B310360019559F /* Centegradeto_FaherenheatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centegradeto_FaherenheatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774E45F527B310340019559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E460B27B310360019559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E461527B310360019559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774E45EF27B310340019559F = {
+			isa = PBXGroup;
+			children = (
+				774E45FA27B310340019559F /* Centegradeto Faherenheat */,
+				774E461127B310360019559F /* Centegradeto FaherenheatTests */,
+				774E461B27B310360019559F /* Centegradeto FaherenheatUITests */,
+				774E45F927B310340019559F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774E45F927B310340019559F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774E45F827B310340019559F /* Centegradeto Faherenheat.app */,
+				774E460E27B310360019559F /* Centegradeto FaherenheatTests.xctest */,
+				774E461827B310360019559F /* Centegradeto FaherenheatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774E45FA27B310340019559F /* Centegradeto Faherenheat */ = {
+			isa = PBXGroup;
+			children = (
+				774E45FB27B310340019559F /* AppDelegate.swift */,
+				774E45FD27B310340019559F /* SceneDelegate.swift */,
+				774E45FF27B310340019559F /* ViewController.swift */,
+				774E460127B310340019559F /* Main.storyboard */,
+				774E460427B310360019559F /* Assets.xcassets */,
+				774E460627B310360019559F /* LaunchScreen.storyboard */,
+				774E460927B310360019559F /* Info.plist */,
+			);
+			path = "Centegradeto Faherenheat";
+			sourceTree = "<group>";
+		};
+		774E461127B310360019559F /* Centegradeto FaherenheatTests */ = {
+			isa = PBXGroup;
+			children = (
+				774E461227B310360019559F /* Centegradeto_FaherenheatTests.swift */,
+			);
+			path = "Centegradeto FaherenheatTests";
+			sourceTree = "<group>";
+		};
+		774E461B27B310360019559F /* Centegradeto FaherenheatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				774E461C27B310360019559F /* Centegradeto_FaherenheatUITests.swift */,
+				774E461E27B310360019559F /* Centegradeto_FaherenheatUITestsLaunchTests.swift */,
+			);
+			path = "Centegradeto FaherenheatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774E45F727B310340019559F /* Centegradeto Faherenheat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774E462227B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto Faherenheat" */;
+			buildPhases = (
+				774E45F427B310340019559F /* Sources */,
+				774E45F527B310340019559F /* Frameworks */,
+				774E45F627B310340019559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Centegradeto Faherenheat";
+			productName = "Centegradeto Faherenheat";
+			productReference = 774E45F827B310340019559F /* Centegradeto Faherenheat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		774E460D27B310360019559F /* Centegradeto FaherenheatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774E462527B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto FaherenheatTests" */;
+			buildPhases = (
+				774E460A27B310360019559F /* Sources */,
+				774E460B27B310360019559F /* Frameworks */,
+				774E460C27B310360019559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774E461027B310360019559F /* PBXTargetDependency */,
+			);
+			name = "Centegradeto FaherenheatTests";
+			productName = "Centegradeto FaherenheatTests";
+			productReference = 774E460E27B310360019559F /* Centegradeto FaherenheatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		774E461727B310360019559F /* Centegradeto FaherenheatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774E462827B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto FaherenheatUITests" */;
+			buildPhases = (
+				774E461427B310360019559F /* Sources */,
+				774E461527B310360019559F /* Frameworks */,
+				774E461627B310360019559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774E461A27B310360019559F /* PBXTargetDependency */,
+			);
+			name = "Centegradeto FaherenheatUITests";
+			productName = "Centegradeto FaherenheatUITests";
+			productReference = 774E461827B310360019559F /* Centegradeto FaherenheatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774E45F027B310340019559F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					774E45F727B310340019559F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					774E460D27B310360019559F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 774E45F727B310340019559F;
+					};
+					774E461727B310360019559F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 774E45F727B310340019559F;
+					};
+				};
+			};
+			buildConfigurationList = 774E45F327B310340019559F /* Build configuration list for PBXProject "Centegradeto Faherenheat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 774E45EF27B310340019559F;
+			productRefGroup = 774E45F927B310340019559F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774E45F727B310340019559F /* Centegradeto Faherenheat */,
+				774E460D27B310360019559F /* Centegradeto FaherenheatTests */,
+				774E461727B310360019559F /* Centegradeto FaherenheatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		774E45F627B310340019559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774E460827B310360019559F /* LaunchScreen.storyboard in Resources */,
+				774E460527B310360019559F /* Assets.xcassets in Resources */,
+				774E460327B310340019559F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E460C27B310360019559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E461627B310360019559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774E45F427B310340019559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774E460027B310340019559F /* ViewController.swift in Sources */,
+				774E45FC27B310340019559F /* AppDelegate.swift in Sources */,
+				774E45FE27B310340019559F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E460A27B310360019559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774E461327B310360019559F /* Centegradeto_FaherenheatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774E461427B310360019559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774E461D27B310360019559F /* Centegradeto_FaherenheatUITests.swift in Sources */,
+				774E461F27B310360019559F /* Centegradeto_FaherenheatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		774E461027B310360019559F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774E45F727B310340019559F /* Centegradeto Faherenheat */;
+			targetProxy = 774E460F27B310360019559F /* PBXContainerItemProxy */;
+		};
+		774E461A27B310360019559F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774E45F727B310340019559F /* Centegradeto Faherenheat */;
+			targetProxy = 774E461927B310360019559F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		774E460127B310340019559F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774E460227B310340019559F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		774E460627B310360019559F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774E460727B310360019559F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774E462027B310360019559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		774E462127B310360019559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774E462327B310360019559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Centegradeto Faherenheat/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CentegradetoFahrenheat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-Faherenheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		774E462427B310360019559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Centegradeto Faherenheat/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CentegradetoFahrenheat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-Faherenheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		774E462627B310360019559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-FaherenheatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centegradeto Faherenheat.app/Centegradeto Faherenheat";
+			};
+			name = Debug;
+		};
+		774E462727B310360019559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-FaherenheatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centegradeto Faherenheat.app/Centegradeto Faherenheat";
+			};
+			name = Release;
+		};
+		774E462927B310360019559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-FaherenheatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Centegradeto Faherenheat";
+			};
+			name = Debug;
+		};
+		774E462A27B310360019559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwms.Centegradeto-FaherenheatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Centegradeto Faherenheat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774E45F327B310340019559F /* Build configuration list for PBXProject "Centegradeto Faherenheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774E462027B310360019559F /* Debug */,
+				774E462127B310360019559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774E462227B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto Faherenheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774E462327B310360019559F /* Debug */,
+				774E462427B310360019559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774E462527B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto FaherenheatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774E462627B310360019559F /* Debug */,
+				774E462727B310360019559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774E462827B310360019559F /* Build configuration list for PBXNativeTarget "Centegradeto FaherenheatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774E462927B310360019559F /* Debug */,
+				774E462A27B310360019559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774E45F027B310340019559F /* Project object */;
+}
