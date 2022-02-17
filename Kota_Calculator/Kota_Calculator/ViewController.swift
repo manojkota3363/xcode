@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     //DisplayButton
         
        
-    var firstOpearand:Double  = 0
+    var firstOpearand:String = ""
         var sum = " "
     var dec=" "
     var DisplayNumber = " "
-    var SecoundOperand:Double = 0
+    var SecoundOperand:String = ""
         var C = ""
         
         override func viewDidLoad() {
@@ -28,12 +28,12 @@ class ViewController: UIViewController {
         
     @IBAction func OneButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+1
+            firstOpearand=firstOpearand+"1"
             //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+1
+            SecoundOperand=SecoundOperand+"1"
             dec="secound"
             DisplayButton.text="\(SecoundOperand)"
                 //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
@@ -42,127 +42,143 @@ class ViewController: UIViewController {
     }
     @IBAction func ZeroButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10
+            firstOpearand=firstOpearand+"0"
             //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
-
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10
+            SecoundOperand=SecoundOperand+"0"
             dec="secound"
             DisplayButton.text="\(SecoundOperand)"
-
-                DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
     }
     @IBAction func twoButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+2
+            firstOpearand=firstOpearand+"2"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+2
+            SecoundOperand=SecoundOperand+"2"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
         
     }
     @IBAction func threeButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+3
+            firstOpearand=firstOpearand+"3"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+3
+            SecoundOperand=SecoundOperand+"3"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
         
     }
     @IBAction func fourButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+4
+            firstOpearand=firstOpearand+"4"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+4
+            SecoundOperand=SecoundOperand+"4"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
         
     }
     @IBAction func fiveButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+5
+            firstOpearand=firstOpearand+"5"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+5
+            SecoundOperand=SecoundOperand+"5"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
         
     }
     @IBAction func sixButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+6
+            firstOpearand=firstOpearand+"6"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+6
+            SecoundOperand=SecoundOperand+"6"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
     }
     @IBAction func SevenButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+7
+            firstOpearand=firstOpearand+"7"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+7
+            SecoundOperand=SecoundOperand+"7"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
+          DisplayButton.text="\(SecoundOperand)"
+            
         }
         
     }
     @IBAction func eightButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+8
+            firstOpearand=firstOpearand+"8"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+1
+            SecoundOperand=SecoundOperand+"8"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
         
     }
     @IBAction func NineButton(_ sender: UIButton) {
         if C == ""{
-            firstOpearand=firstOpearand*10+9
+            firstOpearand=firstOpearand+"9"
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
             DisplayButton.text="\(firstOpearand)"
             dec="first"
         }else {
-            SecoundOperand=SecoundOperand*10+9
+            SecoundOperand=SecoundOperand+"9"
             dec="secound"
-                DisplayButton.text="\(SecoundOperand)"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
         }
     }
    
         
     @IBAction func dotPressed(_ sender: UIButton) {
-            if dec == "first"{
-                firstOpearand = firstOpearand*1
-                
-            }else if dec == "secound"{
-                if DisplayNumber.count <= 7 {
-                    DisplayNumber += "."
-                    DisplayButton.text = DisplayNumber
-                    
-                }
-                
-            }
+        if C == ""{
+            firstOpearand=firstOpearand+"."
+            //DisplayButton.text=DisplayButton.text!+"\(firstOpearand)"
+            DisplayButton.text="\(firstOpearand)"
+            dec="first"
+        }else {
+            SecoundOperand=SecoundOperand+"."
+            dec="secound"
+            DisplayButton.text="\(SecoundOperand)"
+                //DisplayButton.text=DisplayButton.text!+"\(SecoundOperand)"
+        }
             
         }
         
@@ -173,6 +189,9 @@ class ViewController: UIViewController {
         }
         
         @IBAction func subButtonPressed(_ sender: UIButton) {
+            if(dec=="" && firstOpearand==""){
+                firstOpearand=firstOpearand+"-"
+            }
             DisplayButton.text=DisplayButton.text!+"-"
             C = "-"
             //performOperation(operator: "-")
@@ -191,14 +210,8 @@ class ViewController: UIViewController {
         }
         
         @IBAction func signChangeButtonPressed(_ sender: UIButton) {
-            var x=0
-            if (x == 0) {
-                C = "+"
-                x=x+1
-            }else{
-                C = "-"
-            }
-            DisplayButton.text = DisplayButton.text!+C
+           
+            DisplayButton.text = String(Double(DisplayButton.text!)! * -1)
         }
         
         @IBAction func clearButtonPressed(_ sender: UIButton) {
@@ -208,9 +221,9 @@ class ViewController: UIViewController {
         
         @IBAction func AllClearButtonPressed(_ sender: UIButton) {
             DisplayNumber = ""
-            SecoundOperand = 0
-            firstOpearand  = 0
-            SecoundOperand = 0
+            SecoundOperand = ""
+            firstOpearand  = ""
+            //SecoundOperand = 0
             sum = ""
             C = ""
             DisplayButton.text = "0"
@@ -244,20 +257,19 @@ class ViewController: UIViewController {
                     
                     switch C{
                     case "+":
-                         Sum = "\(SecoundOperand + firstOpearand)"
+                         Sum = String(Double(firstOpearand)! + Double(SecoundOperand)!)
                         //sum = outputFormat(Sum)
                      
                     case "-":
-                         Sum = "\(firstOpearand-SecoundOperand)"
-                        //sum = outputFormat(sub)
+                         Sum = String(Double(firstOpearand)!-Double(SecoundOperand)!)                        //sum = outputFormat(sub)
                     case "*":
-                         Sum = "\(SecoundOperand * firstOpearand)"
+                         Sum = String(Double(firstOpearand)! * Double(SecoundOperand)!)
                         //sum = outputFormat(mult)
                     case "/":
-                        if SecoundOperand == 0{
+                        if SecoundOperand == "0"{
                             sum = "SecoundOperand shound not equal to zero "
                         }else{
-                             Sum = "\(firstOpearand/SecoundOperand)"
+                             Sum = "\(Double(firstOpearand)!/Double(SecoundOperand)!)"
                            // Sum = outputFormat(div)
                         }
                     default:
@@ -265,7 +277,7 @@ class ViewController: UIViewController {
                     }
                     
                 }
-            DisplayButton.text=DisplayButton.text!+Sum
+            DisplayButton.text=Sum
               
         }
         
